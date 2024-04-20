@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+* {
+  margin: 0px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 100vw;
+  justify-content: center;
+  padding: 0px 10px;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+.logo_header {
+  margin: 0px auto;
+}
+
+@media screen and (min-width: 576px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.logo_img {
+  width: 30px;
+  height: 30px;
+}
+
+.language {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: auto;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+[name*="outline"] {
+  margin: 0px 10px;
+  font-size: 25px;
+}
+
+[name*="down"] {
+  margin-bottom: -10px;
+  font-size: 20px;
+  margin-left: 2px;
+  padding-top: 10px;
+}
+
+.na {
+  margin: 0px 10vw;
+  display: flex;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav_heading {
+  margin: 20px auto;
+}
+
+.hr {
+  width: 100vw;
+  border-color: #ffe;
+  transform: scaleY(0.3);
+}
+@media screen and (max-width: 576px) {
+  .language {
+    display: none;
+  }
+  [name*="person"] {
+    display: none;
+  }
+
+  .logo_img {
+    width: 20px;
+    height: 20px;
+  }
+  [name*="outline"] {
+    padding: 0px 3px;
+    font-size: 23px;
+  }
+  .na {
+    display: none;
+  }
+}
+
+.logo_main {
+  max-width: 100vw;
+}

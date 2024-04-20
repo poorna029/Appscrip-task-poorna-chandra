@@ -1,0 +1,6 @@
+.inp_lab {
+  display: flex;
+  padding: 10px 20px;
+  max-width: calc(100% / 4);
+  flex-basis: calc(100% / 4);
+}
