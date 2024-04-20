@@ -4,8 +4,8 @@ import CombinedFilter from "../CombinedFilters";
 
 const FilterSection = () => {
   return (
-    <div>
-      <div className={styles.inp_lab}>
+    <div className={styles.inp_lab}>
+      <div>
         <input type="checkbox" for="customizable" />
         <label>CUSTOMIZABLE</label>
       </div>

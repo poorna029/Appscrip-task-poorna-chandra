@@ -6,15 +6,14 @@
 .products {
   list-style: none;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: auto;
-  max-width: 98%;
-  flex-basis: 88%;
-
-  display: flex;
+  min-width: 75%;
+  flex: 1;
   align-items: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  justify-content: center;
+  margin: 40px auto;
 }
 
 li {
