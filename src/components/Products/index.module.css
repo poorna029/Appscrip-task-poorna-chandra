@@ -19,3 +19,13 @@
 li {
   margin: 10px auto;
 }
+
+@media screen and (max-width: 576px) {
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    flex: 1;
+    overflow: auto;
+    max-width: 100vw;
+  }
+}

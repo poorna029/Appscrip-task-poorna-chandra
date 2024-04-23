@@ -22,40 +22,30 @@
   justify-content: center;
   padding-top: auto;
 }
-
-.c12 {
-  width: 60%;
-  line-height: 1.8rem;
-  text-align: start;
-}
-.c34 {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: start;
-  gap: 10px;
-  line-height: 1.8rem;
-}
-
-.section2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  line-height: 1.8rem;
-}
-h2 {
-  margin-bottom: 20px;
-}
 .inp {
   background-color: white;
-  color: #ccddee;
+  color: #060a0e;
   height: 40px;
   padding: 8px;
   border: none;
   font-size: 18px;
-  border-radius: 5px;
 }
+
+.sign_hide {
+  display: none;
+}
+.sign {
+  display: block;
+}
+.c12 {
+  width: 60%;
+  line-height: 1.8rem;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .btn {
   height: 40px;
   margin-left: 3px;
@@ -66,6 +56,191 @@ h2 {
   border: none;
   border: 1px solid #555;
 }
+
+.c34 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  gap: 10px;
+  line-height: 1.8rem;
+}
+
+.cuh {
+  display: block;
+}
+
+.cuh_hide {
+  display: none;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  line-height: 1.8rem;
+}
+
+.c6,
+.c5 {
+  text-align: start;
+}
+h2 {
+  margin-bottom: 20px;
+}
+
+.qlmobile {
+  display: none;
+}
+
+.hr2 {
+  display: none;
+}
+
+.c7 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.sm {
+  width: 70px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+    text-align: start;
+    margin-bottom: 0px;
+  }
+
+  .both_sections {
+    gap: 50px;
+  }
+
+  .footer_bg {
+    background-color: black;
+    margin: 0px;
+    padding: 20px 30px;
+    color: white;
+  }
+  * {
+    margin: 0px;
+  }
+  .c2 {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .hr2 {
+    width: 100%;
+    margin: 10px 0px;
+    display: block;
+  }
+  .sign_hide {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .sign {
+    display: none;
+  }
+
+  .c12 {
+    width: 100%;
+    text-align: justify;
+  }
+  .btn {
+    flex: 1;
+  }
+  .inp {
+    flex: 2;
+  }
+
+  .c34 {
+    width: 100%;
+  }
+
+  .cu {
+    display: flex;
+    gap: 10px;
+  }
+
+  .cuh {
+    display: none;
+  }
+
+  .cuh_hide {
+    display: block;
+  }
+
+  .usdp {
+    display: none;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  h2 {
+    text-align: start;
+  }
+
+  .qlmobile {
+    display: block;
+  }
+  .qlmobile_inside {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .c5_hide {
+    display: block;
+    margin-right: auto;
+    align-self: start;
+    text-align: start;
+  }
+  .c5 {
+    display: none;
+  }
+
+  .c6_hide {
+    display: block;
+    margin-right: auto;
+    align-self: start;
+    text-align: start;
+  }
+  .c6 {
+    display: none;
+  }
+
+  .c7_hide {
+    display: block;
+    margin-right: auto;
+    align-self: start;
+  }
+  .c7 {
+    display: none;
+  }
+
+  .museAccept {
+    display: none;
+  }
+
+  .sm {
+    display: flex;
+    margin: 0px;
+    margin-top: 10px;
+  }
+}
+
 .c8 {
   display: flex;
   flex-direction: column;
@@ -77,20 +252,38 @@ h2 {
   margin: 3px;
   /* padding: 3px; */
 }
-.sm {
-  width: 70px;
-  margin-top: 20px;
+
+.fu {
+  display: flex;
+}
+.c44 {
+  display: flex;
+  gap: 10px;
 }
 
-.c7 {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
+/* .usd {
+  margin-right: 10px;
+  display: inline-block;
+} */
+
+.star {
+  transform: scale(1);
+  align-self: baseline;
+  margin-left: 3px;
+  margin-top: 5px;
 }
-.c6,
-.c5 {
+.c4 {
+  margin-top: 15px;
+}
+.images {
+  display: flex;
+  align-self: flex-start;
+}
+.muaa {
   text-align: start;
 }
 .fu {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

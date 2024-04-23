@@ -18,11 +18,14 @@ const Filter = () => {
           <div className={styles.filter_left}>
             <p>3428 ITEMS</p>
             <div className={styles.hide}>
-              {isFilterSecOpen ? (
-                <ion-icon name="chevron-back-outline"></ion-icon>
-              ) : (
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-              )}
+              <ion-icon
+                name={
+                  isFilterSecOpen
+                    ? "chevron-back-outline"
+                    : "chevron-forward-outline"
+                }
+              ></ion-icon>
+
               <button
                 className={styles.btn}
                 onClick={() => setisFilterSecOpen((pre) => !pre)}

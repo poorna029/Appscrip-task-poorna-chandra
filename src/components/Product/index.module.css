@@ -26,17 +26,32 @@
   margin: auto;
 }
 
+.product_name {
+  width: 185px;
+  text-wrap: stable;
+  text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+  .product_main {
+    max-width: 400px;
+    min-width: 150px;
+  }
+
+  .img_style {
+    flex: 1 1 140px;
+  }
+
+  .product_name {
+    width: 145px;
+  }
+}
+
 .name_section {
   display: flex;
   align-items: center;
   height: 100px;
   margin: auto;
-}
-
-.product_name {
-  width: 185px;
-  text-wrap: stable;
-  text-align: left;
 }
 
 [name*="heart"] {

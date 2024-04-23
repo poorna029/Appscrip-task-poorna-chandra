@@ -1,5 +1,5 @@
 .hr {
-  width: 100vw;
+  width: 100%;
   transform: scaleY(0.3);
 }
 
@@ -109,6 +109,6 @@
     height: auto;
     display: block;
     width: 1px;
-    transform: scaleX(0.3);
+    transform: scaleY(0.3);
   }
 }

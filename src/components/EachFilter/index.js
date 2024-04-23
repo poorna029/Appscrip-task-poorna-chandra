@@ -9,17 +9,10 @@ const EachFilter = ({ name }) => {
       <hr className={styles.hr} />
       <div className={styles.filter_headings}>
         <h3>{name}</h3>
-        {open ? (
-          <ion-icon
-            name="chevron-down-outline"
-            onClick={() => setOpen((pre) => !pre)}
-          ></ion-icon>
-        ) : (
-          <ion-icon
-            name="chevron-up-outline"
-            onClick={() => setOpen((pre) => !pre)}
-          ></ion-icon>
-        )}
+        <ion-icon
+          name={!open ? "chevron-down-outline" : "chevron-up-outline"}
+          onClick={() => setOpen((pre) => !pre)}
+        ></ion-icon>
       </div>
       <p className={styles.all_text}>All</p>
       {open && (
